@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Spotify AguilarH</string>
+    <string name="inicio">Inicio</string>
+    <string name="titulo1">Solo para ti</string>
+    <string name="titulo2">Escuchadas recientemente</string>
+    <string name="titulo3">Empieza la semana con lo mejor....</string>
+    <string name="titulo4">Playlists populares</string>
+    <string name="titulo5">Lista de éxitos</string>
+    <string name="titulo6">Nuevos lanzamientos</string>
 </resources>

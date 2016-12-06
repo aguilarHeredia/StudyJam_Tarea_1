@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:background="#222326"
         android:gravity="center_horizontal|center_vertical"
-        android:text="Inicio"
+        android:text="@string/inicio"
         android:textColor="#fff"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -34,7 +34,7 @@
 
             <TextView
                 style="@style/title"
-                android:text="Solo para ti" />
+                android:text="@string/titulo1" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -172,7 +172,7 @@
 
             <TextView
                 style="@style/title"
-                android:text="Escuchadas recientemente" />
+                android:text="@string/titulo2" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -310,7 +310,7 @@
 
             <TextView
                 style="@style/title"
-                android:text="Empieza la semana con lo mejor...." />
+                android:text="@string/titulo3" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -448,7 +448,7 @@
 
             <TextView
                 style="@style/title"
-                android:text="Playlists populares" />
+                android:text="@string/titulo4" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -586,7 +586,7 @@
 
             <TextView
                 style="@style/title"
-                android:text="Lista de éxitos" />
+                android:text="@string/titulo5" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -700,7 +700,7 @@
 
             <TextView
                 style="@style/title"
-                android:text="Nuevos lanzamientos" />
+                android:text="@string/titulo6" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
