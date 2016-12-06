@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#222326</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="cardStyle">
+        <!-- Estilos de descripciones de album -->
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="cardStyleDescription">
+        <!-- Estilos de descripciones de album -->
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#B8B8B8</item>
+    </style>
+
+    <style name="title">
+        <!-- Estilos de descripciones de album -->
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121314"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context="com.example.android.spotifyaguilarh.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#222326"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Inicio"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/title"
+                android:text="Solo para ti" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c1" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Another you" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="268.356 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c2" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Anthems" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="648.956 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c3" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Humming the lights" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="348.116 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c4" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Mirage" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="838.354 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c5" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Imagine" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="168.555 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c6" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Elements of life" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="738.165 SEGUIDORES" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                style="@style/title"
+                android:text="Escuchadas recientemente" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c14" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The Mozart collection" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="PLAYLIST · DE SPOTIFY" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c8" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="In serach of sunrise" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE TIESTO" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c9" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Summer nigths" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE TIESTO" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c10" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Parade of the athletes" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE TIESTO" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c11" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="We are" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE DASH BERLIN" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c12" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Greatest hits and remixes" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE PAUL OAKENFOLD" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                style="@style/title"
+                android:text="Empieza la semana con lo mejor...." />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c13" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Travelling" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="568.355 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c15" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Complete piano sonatas" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="771.252 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c6" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Elements of life" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="268.356 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c16" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Fryderyk Chopin" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="144.950 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c17" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The complete symphonies" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="768.357 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c18" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The for seasons" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="584.903 SEGUIDORES" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                style="@style/title"
+                android:text="Playlists populares" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c19" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The definitve collection" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="5268.356 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c20" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Rosetta" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="5463.345 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c3" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Humming the ligths" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="3528.264 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c6" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Elements of life" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="268.356 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c9" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Summer nights" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="635.970 SEGUIDORES" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c12" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Greatest hits and remixes" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="3245.185 SEGUIDORES" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                style="@style/title"
+                android:text="Lista de éxitos" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c15" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Coplete piano sonatas" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c18" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The four seasons" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c2" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Ultimate singles collection" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c5" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Imagine" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c8" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="In search of sunrise" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c11" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="We are" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                style="@style/title"
+                android:text="Nuevos lanzamientos" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c14" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The Mozart collection" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE BRILLIANT CLASSICS" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c17" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The complete symphonies" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE FRANS BRUGGEN" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c7" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Cluf life volume 4" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE TIESTO" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c20" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Rosetta" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE VANGELIS" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c18" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="The four seasons" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE VIVALDI" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="144dp"
+                            android:layout_height="144dp"
+                            android:src="@drawable/c6" />
+
+                        <TextView
+                            style="@style/cardStyle"
+                            android:text="Elements of life" />
+
+                        <TextView
+                            style="@style/cardStyleDescription"
+                            android:text="ALBUM · DE TIESTO" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:src="@drawable/barra" />
+
+</LinearLayout>
